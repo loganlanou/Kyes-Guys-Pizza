@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about Kyes Guys Pizza - Mobile wood-fired pizza catering in the Chippewa Valley, Wisconsin">
+    <title>About Us | Kyes Guys Pizza</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">Kyes Guys Pizza</a>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1>About Kyes Guys Pizza</h1>
+                <p>Bringing wood-fired excellence to the Chippewa Valley</p>
+            </div>
+        </section>
+
+        <section class="about-main">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-text">
+                        <h2>Our Story</h2>
+                        <p>Kyes Guys Pizza was born from a passion for authentic, wood-fired pizza and a love for bringing people together. We saw an opportunity to bring the pizzeria experience directly to the community—at festivals, private events, and gatherings throughout the Chippewa Valley.</p>
+                        <p>Our mobile setup allows you to watch your pizza being made fresh, right before your eyes. There's something special about seeing the dough stretched, the toppings added, and then watching it emerge from our wood-fired oven with that perfect char and bubbling cheese.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="what-we-do">
+            <div class="container">
+                <h2>What We Do</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <h3>Event Catering</h3>
+                        <p>From intimate gatherings to large festivals, we bring our mobile wood-fired oven to cook fresh, personal-sized pizzas for your guests. Each pizza is made to order, ensuring everyone gets exactly what they want.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Private Parties</h3>
+                        <p>Birthday parties, graduation celebrations, family reunions—whatever the occasion, we'll make it memorable with delicious wood-fired pizza that your guests will be talking about long after the event ends.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Corporate Events</h3>
+                        <p>Looking to treat your team or impress clients? Our unique catering setup adds excitement to any corporate function while delivering consistently delicious food.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Community Events</h3>
+                        <p>Catch us at local breweries, parks, and community gatherings throughout the Chippewa Valley, especially during the summer months. Follow us on Facebook to see where we'll be next!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="the-experience">
+            <div class="container">
+                <h2>The Kyes Guys Experience</h2>
+                <div class="experience-content">
+                    <div class="experience-item">
+                        <span class="step-number">1</span>
+                        <h3>We Set Up</h3>
+                        <p>We arrive at your event with our mobile wood-fired oven and everything needed to create pizza magic.</p>
+                    </div>
+                    <div class="experience-item">
+                        <span class="step-number">2</span>
+                        <h3>Watch the Show</h3>
+                        <p>Your guests can watch as we hand-stretch dough, add fresh toppings, and slide pizzas into the roaring oven.</p>
+                    </div>
+                    <div class="experience-item">
+                        <span class="step-number">3</span>
+                        <h3>Enjoy Fresh Pizza</h3>
+                        <p>In just minutes, perfectly cooked personal pizzas emerge—crispy, smoky, and absolutely delicious.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <h2>Ready to Book Us for Your Event?</h2>
+                <p>Let's bring the wood-fired experience to your next gathering.</p>
+                <a href="contact.html" class="btn btn-light">Contact Us</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Kyes Guys Pizza</h3>
+                    <p>Wood-fired pizza catering in the Chippewa Valley</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <a href="https://www.facebook.com/p/Kyes-Guys-Pizza-100089266495527/" target="_blank" rel="noopener noreferrer" class="social-link">Facebook</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Kyes Guys Pizza. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const navToggle = document.querySelector('.nav-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        navToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            navToggle.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

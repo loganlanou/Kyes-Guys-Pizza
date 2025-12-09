@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Kyes Guys Pizza for wood-fired pizza catering in the Chippewa Valley, Wisconsin">
+    <title>Contact Us | Kyes Guys Pizza</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">Kyes Guys Pizza</a>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <p>Let's bring wood-fired pizza to your next event</p>
+            </div>
+        </section>
+
+        <section class="contact-main">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>Get In Touch</h2>
+                        <p>Ready to book Kyes Guys Pizza for your event? Have questions about our services? We'd love to hear from you!</p>
+
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <h3>Facebook</h3>
+                                <p>The best way to reach us and stay updated on where we'll be next!</p>
+                                <a href="https://www.facebook.com/p/Kyes-Guys-Pizza-100089266495527/" target="_blank" rel="noopener noreferrer" class="btn">Visit Our Facebook</a>
+                            </div>
+
+                            <div class="contact-method">
+                                <h3>Service Area</h3>
+                                <p>We proudly serve the Chippewa Valley, including:</p>
+                                <ul class="service-areas">
+                                    <li>Eau Claire</li>
+                                    <li>Chippewa Falls</li>
+                                    <li>Menomonie</li>
+                                    <li>And surrounding areas</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="booking-info">
+                        <div class="info-card">
+                            <h3>Book Your Event</h3>
+                            <p>Planning an event and want wood-fired pizza? Here's what to know:</p>
+                            <ul class="booking-list">
+                                <li><strong>Events We Cater:</strong> Weddings, corporate events, birthday parties, graduation celebrations, festivals, and more</li>
+                                <li><strong>What We Provide:</strong> Mobile wood-fired oven, fresh ingredients, and personal-sized pizzas made to order</li>
+                                <li><strong>The Experience:</strong> Your guests can watch their pizzas being made fresh right in front of them</li>
+                            </ul>
+                            <p>Send us a message on Facebook with your event date, location, and estimated guest count, and we'll get back to you with availability and pricing.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="find-us">
+            <div class="container">
+                <h2>Find Us Around Town</h2>
+                <p>We're a mobile operation, which means we pop up at various locations throughout the Chippewa Valley. Follow us on Facebook to see our schedule and find out where we'll be serving next!</p>
+                <p>During the warmer months, you can often find us at local breweries, community parks, and special events around Eau Claire and the surrounding area.</p>
+                <a href="https://www.facebook.com/p/Kyes-Guys-Pizza-100089266495527/" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Follow Us on Facebook</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Kyes Guys Pizza</h3>
+                    <p>Wood-fired pizza catering in the Chippewa Valley</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <a href="https://www.facebook.com/p/Kyes-Guys-Pizza-100089266495527/" target="_blank" rel="noopener noreferrer" class="social-link">Facebook</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Kyes Guys Pizza. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const navToggle = document.querySelector('.nav-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        navToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            navToggle.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

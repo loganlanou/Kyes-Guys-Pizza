@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kyes Guys Pizza - Wood-fired pizza catering for events throughout the Chippewa Valley, Wisconsin">
+    <title>Kyes Guys Pizza | Wood-Fired Pizza Catering</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">Kyes Guys Pizza</a>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Wood-Fired Pizza<br>Made Fresh For You</h1>
+                <p>Bringing authentic wood-fired pizza to events throughout the Chippewa Valley</p>
+                <a href="contact.html" class="btn">Book Your Event</a>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <h2>Why Choose Kyes Guys?</h2>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🔥</div>
+                        <h3>Wood-Fired Perfection</h3>
+                        <p>Our portable wood-fired oven reaches the perfect temperature for that authentic crispy crust and smoky flavor.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">👀</div>
+                        <h3>Made Before Your Eyes</h3>
+                        <p>Watch your pizza being crafted fresh right in front of you. It's not just food—it's an experience.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🎉</div>
+                        <h3>Perfect for Any Event</h3>
+                        <p>Weddings, corporate events, birthday parties, festivals—we bring the pizzeria to you.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <h2>Ready to Fire Up Your Event?</h2>
+                <p>Let us bring the wood-fired magic to your next gathering in the Chippewa Valley.</p>
+                <a href="contact.html" class="btn btn-light">Get In Touch</a>
+            </div>
+        </section>
+
+        <section class="about-preview">
+            <div class="container">
+                <div class="about-content">
+                    <h2>Serving the Chippewa Valley</h2>
+                    <p>Kyes Guys Pizza is a mobile wood-fired pizza catering service proudly serving the Eau Claire area and surrounding Chippewa Valley communities. We specialize in personal-sized pizzas cooked to perfection in our wood-fired oven.</p>
+                    <p>From summer festivals to private parties, we bring fresh, delicious pizza directly to your event.</p>
+                    <a href="about.html" class="btn btn-outline">Learn More About Us</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Kyes Guys Pizza</h3>
+                    <p>Wood-fired pizza catering in the Chippewa Valley</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <a href="https://www.facebook.com/p/Kyes-Guys-Pizza-100089266495527/" target="_blank" rel="noopener noreferrer" class="social-link">Facebook</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Kyes Guys Pizza. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile navigation toggle
+        const navToggle = document.querySelector('.nav-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        navToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            navToggle.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
