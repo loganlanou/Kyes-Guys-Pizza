@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Find Kyes Guys Pizza at events and locations throughout the Chippewa Valley. Check our schedule for upcoming appearances.">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <title>Events & Locations | Kyes Guys Pizza</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">Kyes Guys Pizza</a>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="events.html" class="active">Events & Locations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?w=1920&q=80');">
+            <div class="container">
+                <h1>Events & Locations</h1>
+                <p>Find us at these upcoming events throughout the Chippewa Valley</p>
+            </div>
+        </section>
+
+        <section class="events-intro">
+            <div class="container">
+                <div class="events-intro-content">
+                    <div class="events-intro-text">
+                        <h2>Come Visit Us!</h2>
+                        <p>We're a mobile wood-fired pizzeria, which means we bring the pizza party to different locations throughout the week. Check below for our upcoming schedule, and follow us on Facebook for last-minute updates and additions!</p>
+                        <a href="https://www.facebook.com/p/Kyes-Guys-Pizza-100089266495527/" target="_blank" rel="noopener noreferrer" class="btn">Follow on Facebook</a>
+                    </div>
+                    <div class="events-intro-image">
+                        <img src="https://images.unsplash.com/photo-1604382355076-af4b0eb60143?w=500&q=80" alt="Delicious margherita pizza">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="upcoming-events">
+            <div class="container">
+                <h2>Upcoming Schedule</h2>
+                <p class="section-subtitle">December 2025 - Click any event to add it to your calendar!</p>
+
+                <div class="events-grid">
+                    <div class="event-card"
+                         data-event-title="Kyes Guys Pizza at The Brewing Projekt"
+                         data-event-date="2025-12-14"
+                         data-event-start="16:00"
+                         data-event-end="20:00"
+                         data-event-location="1807 N Oxford Ave, Eau Claire, WI"
+                         data-event-description="Join Kyes Guys Pizza at The Brewing Projekt! Fresh wood-fired pizza and craft beer.">
+                        <div class="event-card-date">
+                            <span class="event-month">DEC</span>
+                            <span class="event-day-num">14</span>
+                            <span class="event-weekday">Saturday</span>
+                        </div>
+                        <div class="event-card-content">
+                            <h3>The Brewing Projekt</h3>
+                            <div class="event-info">
+                                <p class="event-location">1807 N Oxford Ave, Eau Claire, WI</p>
+                                <p class="event-time-range">4:00 PM - 8:00 PM</p>
+                            </div>
+                            <p class="event-description">Join us at one of Eau Claire's favorite craft breweries! Grab a cold one and enjoy fresh wood-fired pizza on the patio.</p>
+                            <div class="add-to-calendar">
+                                <button class="calendar-btn" aria-label="Add to calendar">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                        <line x1="16" y1="2" x2="16" y2="6"></line>
+                                        <line x1="8" y1="2" x2="8" y2="6"></line>
+                                        <line x1="3" y1="10" x2="21" y2="10"></line>
+                                    </svg>
+                                    Add to Calendar
+                                </button>
+                                <div class="calendar-dropdown">
+                                    <a href="#" class="calendar-option google-cal">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                                        </svg>
+                                        Google Calendar
+                                    </a>
+                                    <a href="#" class="calendar-option apple-cal">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+                                        </svg>
+                                        Apple Calendar
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="event-card"
+                         data-event-title="Kyes Guys Pizza at Phoenix Park Farmers Market"
+                         data-event-date="2025-12-15"
+                         data-event-start="10:00"
+                         data-event-end="14:00"
+                         data-event-location="Phoenix Park, Eau Claire, WI"
+                         data-event-description="Visit Kyes Guys Pizza at the winter farmers market for fresh wood-fired pizza!">
+                        <div class="event-card-date">
+                            <span class="event-month">DEC</span>
+                            <span class="event-day-num">15</span>
+                            <span class="event-weekday">Sunday</span>
+                        </div>
+                        <div class="event-card-content">
+                            <h3>Phoenix Park Farmers Market</h3>
+                            <div class="event-info">
+                                <p class="event-location">Phoenix Park, Eau Claire, WI</p>
+                                <p class="event-time-range">10:00 AM - 2:00 PM</p>
+                            </div>
+                            <p class="event-description">Visit us at the winter farmers market for a warm slice of wood-fired pizza while you shop for local goods.</p>
+                            <div class="add-to-calendar">
+                                <button class="calendar-btn" aria-label="Add to calendar">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                        <line x1="16" y1="2" x2="16" y2="6"></line>
+                                        <line x1="8" y1="2" x2="8" y2="6"></line>
+                                        <line x1="3" y1="10" x2="21" y2="10"></line>
+                                    </svg>
+                                    Add to Calendar
+                                </button>
+                                <div class="calendar-dropdown">
+                                    <a href="#" class="calendar-option google-cal">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                                        </svg>
+                                        Google Calendar
+                                    </a>
+                                    <a href="#" class="calendar-option apple-cal">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+                                        </svg>
+                                        Apple Calendar
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="event-card"
+                         data-event-title="Kyes Guys Pizza at Lazy Monk Brewing"
+                         data-event-date="2025-12-20"
+                         data-event-start="17:00"
+                         data-event-end="21:00"
+                         data-event-location="97 W Madison St, Eau Claire, WI"
+                         data-event-description="Friday night pizza at Lazy Monk Brewing! Great beer and wood-fired pizza.">
+                        <div class="event-card-date">
+                            <span class="event-month">DEC</span>
+                            <span class="event-day-num">20</span>
+                            <span class="event-weekday">Friday</span>
+                        </div>
+                        <div class="event-card-content">
+                            <h3>Lazy Monk Brewing</h3>
+                            <div class="event-info">
+                                <p class="event-location">97 W Madison St, Eau Claire, WI</p>
+                                <p class="event-time-range">5:00 PM - 9:00 PM</p>
+                            </div>
+                            <p class="event-description">Friday night pizza at the Monk! Perfect way to kick off your weekend with great beer and even better pizza.</p>
+                            <div class="add-to-calendar">
+                                <button class="calendar-btn" aria-label="Add to calendar">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                        <line x1="16" y1="2" x2="16" y2="6"></line>
+                                        <line x1="8" y1="2" x2="8" y2="6"></line>
+                                        <line x1="3" y1="10" x2="21" y2="10"></line>
+                                    </svg>
+                                    Add to Calendar
+                                </button>
+                                <div class="calendar-dropdown">
+                                    <a href="#" class="calendar-option google-cal">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                                        </svg>
+                                        Google Calendar
+                                    </a>
+                                    <a href="#" class="calendar-option apple-cal">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+                                        </svg>
+                                        Apple Calendar
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="event-card"
+                         data-event-title="Kyes Guys Pizza at Holiday Market - Banbury Place"
+                         data-event-date="2025-12-21"
+                         data-event-start="11:00"
+                         data-event-end="16:00"
+                         data-event-location="Banbury Place, Eau Claire, WI"
+                         data-event-description="Holiday Market at Banbury Place! Shop for gifts and enjoy fresh wood-fired pizza.">
+                        <div class="event-card-date">
+                            <span class="event-month">DEC</span>
+                            <span class="event-day-num">21</span>
+                            <span class="event-weekday">Saturday</span>
+                        </div>
+                        <div class="event-card-content">
+                            <h3>Holiday Market at Banbury Place</h3>
+                            <div class="event-info">
+                                <p class="event-location">Banbury Place, Eau Claire, WI</p>
+                                <p class="event-time-range">11:00 AM - 4:00 PM</p>
+                            </div>
+                            <p class="event-description">Shop for holiday gifts and warm up with a fresh pizza! We'll be serving all day at this festive market.</p>
+                            <div class="add-to-calendar">
+                                <button class="calendar-btn" aria-label="Add to calendar">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                        <line x1="16" y1="2" x2="16" y2="6"></line>
+                                        <line x1="8" y1="2" x2="8" y2="6"></line>
+                                        <line x1="3" y1="10" x2="21" y2="10"></line>
+                                    </svg>
+                                    Add to Calendar
+                                </button>
+                                <div class="calendar-dropdown">
+                                    <a href="#" class="calendar-option google-cal">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                                        </svg>
+                                        Google Calendar
+                                    </a>
+                                    <a href="#" class="calendar-option apple-cal">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+                                        </svg>
+                                        Apple Calendar
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="event-card"
+                         data-event-title="Kyes Guys Pizza at Modicum Brewing"
+                         data-event-date="2025-12-28"
+                         data-event-start="16:00"
+                         data-event-end="20:00"
+                         data-event-location="721 S Farwell St, Eau Claire, WI"
+                         data-event-description="End the year with wood-fired pizza at Modicum Brewing!">
+                        <div class="event-card-date">
+                            <span class="event-month">DEC</span>
+                            <span class="event-day-num">28</span>
+                            <span class="event-weekday">Saturday</span>
+                        </div>
+                        <div class="event-card-content">
+                            <h3>Modicum Brewing</h3>
+                            <div class="event-info">
+                                <p class="event-location">721 S Farwell St, Eau Claire, WI</p>
+                                <p class="event-time-range">4:00 PM - 8:00 PM</p>
+                            </div>
+                            <p class="event-description">End the year with wood-fired goodness at Modicum! Great beers, great pizza, great company.</p>
+                            <div class="add-to-calendar">
+                                <button class="calendar-btn" aria-label="Add to calendar">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                        <line x1="16" y1="2" x2="16" y2="6"></line>
+                                        <line x1="8" y1="2" x2="8" y2="6"></line>
+                                        <line x1="3" y1="10" x2="21" y2="10"></line>
+                                    </svg>
+                                    Add to Calendar
+                                </button>
+                                <div class="calendar-dropdown">
+                                    <a href="#" class="calendar-option google-cal">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                                        </svg>
+                                        Google Calendar
+                                    </a>
+                                    <a href="#" class="calendar-option apple-cal">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+                                        </svg>
+                                        Apple Calendar
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="event-card featured"
+                         data-event-title="Kyes Guys Pizza - New Year's Eve at The Brewing Projekt"
+                         data-event-date="2025-12-31"
+                         data-event-start="18:00"
+                         data-event-end="23:00"
+                         data-event-location="1807 N Oxford Ave, Eau Claire, WI"
+                         data-event-description="Ring in the new year with Kyes Guys Pizza at The Brewing Projekt! Special extended hours.">
+                        <div class="event-card-date">
+                            <span class="event-month">DEC</span>
+                            <span class="event-day-num">31</span>
+                            <span class="event-weekday">Tuesday</span>
+                        </div>
+                        <div class="event-card-content">
+                            <h3>New Year's Eve at The Brewing Projekt</h3>
+                            <div class="event-info">
+                                <p class="event-location">1807 N Oxford Ave, Eau Claire, WI</p>
+                                <p class="event-time-range">6:00 PM - 11:00 PM</p>
+                            </div>
+                            <p class="event-description">Ring in the new year with us! Special extended hours and a festive atmosphere. What better way to celebrate than with fresh pizza?</p>
+                            <span class="event-badge">Special Event</span>
+                            <div class="add-to-calendar">
+                                <button class="calendar-btn" aria-label="Add to calendar">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                        <line x1="16" y1="2" x2="16" y2="6"></line>
+                                        <line x1="8" y1="2" x2="8" y2="6"></line>
+                                        <line x1="3" y1="10" x2="21" y2="10"></line>
+                                    </svg>
+                                    Add to Calendar
+                                </button>
+                                <div class="calendar-dropdown">
+                                    <a href="#" class="calendar-option google-cal">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                                        </svg>
+                                        Google Calendar
+                                    </a>
+                                    <a href="#" class="calendar-option apple-cal">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+                                        </svg>
+                                        Apple Calendar
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="regular-locations">
+            <div class="container">
+                <h2>Our Regular Spots</h2>
+                <p class="section-subtitle">You can often find us at these favorite locations</p>
+
+                <div class="locations-grid">
+                    <div class="location-card">
+                        <div class="location-image">
+                            <img src="https://images.unsplash.com/photo-1559526324-593bc073d938?w=400&q=80" alt="Craft brewery interior">
+                        </div>
+                        <div class="location-content">
+                            <h3>Local Breweries</h3>
+                            <p>We partner with craft breweries throughout Eau Claire and the Chippewa Valley. Nothing pairs better with a cold craft beer than fresh wood-fired pizza!</p>
+                            <ul class="location-list">
+                                <li>The Brewing Projekt</li>
+                                <li>Lazy Monk Brewing</li>
+                                <li>Modicum Brewing</li>
+                                <li>K Point Brewing</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="location-card">
+                        <div class="location-image">
+                            <img src="https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=400&q=80" alt="Farmers market produce">
+                        </div>
+                        <div class="location-content">
+                            <h3>Farmers Markets</h3>
+                            <p>Support local! Find us serving hot slices at farmers markets where we celebrate fresh, local ingredients just like the ones we use on our pizzas.</p>
+                            <ul class="location-list">
+                                <li>Phoenix Park Market</li>
+                                <li>Downtown Farmers Market</li>
+                                <li>Seasonal pop-ups</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="location-card">
+                        <div class="location-image">
+                            <img src="https://images.unsplash.com/photo-1529543544277-1e66e5a4ee60?w=400&q=80" alt="Community festival">
+                        </div>
+                        <div class="location-content">
+                            <h3>Community Events</h3>
+                            <p>From summer festivals to holiday markets, we love being part of community celebrations. Keep an eye on our schedule for special event appearances!</p>
+                            <ul class="location-list">
+                                <li>Local festivals</li>
+                                <li>Holiday markets</li>
+                                <li>Community gatherings</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="private-events-cta">
+            <div class="container">
+                <div class="private-events-content">
+                    <div class="private-events-text">
+                        <h2>Want Us at Your Event?</h2>
+                        <p>Planning a wedding, birthday party, corporate event, or family reunion? We'd love to bring the wood-fired experience to your special occasion!</p>
+                        <p>From intimate backyard gatherings to large celebrations, we can customize our service to fit your needs.</p>
+                        <a href="contact.html" class="btn">Book a Private Event</a>
+                    </div>
+                    <div class="private-events-image">
+                        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=500&q=80" alt="Beautiful wood-fired pizza">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="events-note">
+            <div class="container">
+                <div class="note-card">
+                    <h3>Stay Updated!</h3>
+                    <p>Our schedule can change due to weather or special bookings. For the most up-to-date information on where we'll be, follow us on Facebook. We post weekly updates and sometimes add last-minute appearances!</p>
+                    <a href="https://www.facebook.com/p/Kyes-Guys-Pizza-100089266495527/" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Follow Us on Facebook</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Kyes Guys Pizza</h3>
+                    <p>Wood-fired pizza catering in the Chippewa Valley</p>
+                    <p class="footer-tagline">Made with love, served with a smile.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="events.html">Events & Locations</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <p>Stay updated on where we'll be next!</p>
+                    <a href="https://www.facebook.com/p/Kyes-Guys-Pizza-100089266495527/" target="_blank" rel="noopener noreferrer" class="social-link">Facebook</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Kyes Guys Pizza. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile navigation toggle
+        const navToggle = document.querySelector('.nav-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        navToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            navToggle.classList.toggle('active');
+        });
+
+        // Calendar functionality
+        document.querySelectorAll('.calendar-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const dropdown = btn.nextElementSibling;
+
+                // Close all other dropdowns
+                document.querySelectorAll('.calendar-dropdown').forEach(d => {
+                    if (d !== dropdown) d.classList.remove('active');
+                });
+
+                dropdown.classList.toggle('active');
+            });
+        });
+
+        // Close dropdowns when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.add-to-calendar')) {
+                document.querySelectorAll('.calendar-dropdown').forEach(d => {
+                    d.classList.remove('active');
+                });
+            }
+        });
+
+        // Generate Google Calendar URL
+        function generateGoogleCalendarUrl(eventData) {
+            const { title, date, startTime, endTime, location, description } = eventData;
+
+            // Format dates for Google Calendar (YYYYMMDDTHHMMSS)
+            const startDateTime = date.replace(/-/g, '') + 'T' + startTime.replace(':', '') + '00';
+            const endDateTime = date.replace(/-/g, '') + 'T' + endTime.replace(':', '') + '00';
+
+            const params = new URLSearchParams({
+                action: 'TEMPLATE',
+                text: title,
+                dates: `${startDateTime}/${endDateTime}`,
+                details: description,
+                location: location,
+                ctz: 'America/Chicago'
+            });
+
+            return `https://calendar.google.com/calendar/render?${params.toString()}`;
+        }
+
+        // Generate ICS file content for Apple Calendar
+        function generateICSContent(eventData) {
+            const { title, date, startTime, endTime, location, description } = eventData;
+
+            // Format dates for ICS (YYYYMMDDTHHMMSS)
+            const startDateTime = date.replace(/-/g, '') + 'T' + startTime.replace(':', '') + '00';
+            const endDateTime = date.replace(/-/g, '') + 'T' + endTime.replace(':', '') + '00';
+
+            // Generate a unique ID
+            const uid = `${Date.now()}-${Math.random().toString(36).substr(2, 9)}@kyesguys.com`;
+
+            const icsContent = [
+                'BEGIN:VCALENDAR',
+                'VERSION:2.0',
+                'PRODID:-//Kyes Guys Pizza//Events//EN',
+                'CALSCALE:GREGORIAN',
+                'METHOD:PUBLISH',
+                'BEGIN:VTIMEZONE',
+                'TZID:America/Chicago',
+                'BEGIN:STANDARD',
+                'DTSTART:19701101T020000',
+                'RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU',
+                'TZOFFSETFROM:-0500',
+                'TZOFFSETTO:-0600',
+                'TZNAME:CST',
+                'END:STANDARD',
+                'BEGIN:DAYLIGHT',
+                'DTSTART:19700308T020000',
+                'RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU',
+                'TZOFFSETFROM:-0600',
+                'TZOFFSETTO:-0500',
+                'TZNAME:CDT',
+                'END:DAYLIGHT',
+                'END:VTIMEZONE',
+                'BEGIN:VEVENT',
+                `UID:${uid}`,
+                `DTSTAMP:${new Date().toISOString().replace(/[-:]/g, '').split('.')[0]}Z`,
+                `DTSTART;TZID=America/Chicago:${startDateTime}`,
+                `DTEND;TZID=America/Chicago:${endDateTime}`,
+                `SUMMARY:${title}`,
+                `DESCRIPTION:${description}`,
+                `LOCATION:${location}`,
+                'END:VEVENT',
+                'END:VCALENDAR'
+            ].join('\r\n');
+
+            return icsContent;
+        }
+
+        // Download ICS file
+        function downloadICS(eventData) {
+            const icsContent = generateICSContent(eventData);
+            const blob = new Blob([icsContent], { type: 'text/calendar;charset=utf-8' });
+            const url = URL.createObjectURL(blob);
+
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = `${eventData.title.replace(/[^a-z0-9]/gi, '_')}.ics`;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            URL.revokeObjectURL(url);
+        }
+
+        // Get event data from card
+        function getEventDataFromCard(card) {
+            return {
+                title: card.dataset.eventTitle,
+                date: card.dataset.eventDate,
+                startTime: card.dataset.eventStart,
+                endTime: card.dataset.eventEnd,
+                location: card.dataset.eventLocation,
+                description: card.dataset.eventDescription
+            };
+        }
+
+        // Handle calendar option clicks
+        document.querySelectorAll('.google-cal').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const card = e.target.closest('.event-card');
+                const eventData = getEventDataFromCard(card);
+                const url = generateGoogleCalendarUrl(eventData);
+                window.open(url, '_blank');
+
+                // Close dropdown
+                e.target.closest('.calendar-dropdown').classList.remove('active');
+            });
+        });
+
+        document.querySelectorAll('.apple-cal').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const card = e.target.closest('.event-card');
+                const eventData = getEventDataFromCard(card);
+                downloadICS(eventData);
+
+                // Close dropdown
+                e.target.closest('.calendar-dropdown').classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html>
