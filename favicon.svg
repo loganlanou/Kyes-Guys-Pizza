@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Pizza slice shape -->
+  <path d="M32 4 L58 56 Q32 64 6 56 Z" fill="#F4A020" stroke="#D4860A" stroke-width="2"/>
+  <!-- Crust -->
+  <path d="M6 56 Q32 64 58 56" fill="#C9781D" stroke="#A65E14" stroke-width="2" stroke-linecap="round"/>
+  <!-- Cheese/sauce base -->
+  <path d="M32 8 L54 52 Q32 58 10 52 Z" fill="#E63946"/>
+  <!-- Cheese drips -->
+  <ellipse cx="22" cy="38" rx="6" ry="4" fill="#FFF3CD"/>
+  <ellipse cx="38" cy="32" rx="7" ry="5" fill="#FFF3CD"/>
+  <ellipse cx="30" cy="48" rx="5" ry="3" fill="#FFF3CD"/>
+  <ellipse cx="44" cy="44" rx="4" ry="3" fill="#FFF3CD"/>
+  <!-- Pepperoni -->
+  <circle cx="24" cy="28" r="5" fill="#8B0000"/>
+  <circle cx="38" cy="42" r="5" fill="#8B0000"/>
+  <circle cx="28" cy="44" r="4" fill="#8B0000"/>
+  <circle cx="42" cy="28" r="4" fill="#8B0000"/>
+  <!-- Pepperoni highlights -->
+  <circle cx="23" cy="27" r="1.5" fill="#A52A2A" opacity="0.5"/>
+  <circle cx="37" cy="41" r="1.5" fill="#A52A2A" opacity="0.5"/>
+</svg>
