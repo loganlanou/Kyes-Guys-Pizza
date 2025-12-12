@@ -1178,6 +1178,21 @@ header {
     color: var(--color-text-light);
 }
 
+.contact-link {
+    display: inline-block;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--color-primary);
+    padding: 0.5rem 0;
+    border-bottom: 2px solid transparent;
+    transition: var(--transition);
+}
+
+.contact-link:hover {
+    color: var(--color-primary-dark);
+    border-bottom-color: var(--color-primary-dark);
+}
+
 .service-areas {
     margin-top: 0.5rem;
     padding-left: 1.25rem;
